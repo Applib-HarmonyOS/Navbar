@@ -2,16 +2,9 @@
 
 # Installation :
 
-1. Copy the neumorph_navbar folder in your repo.
-2. Add neumorphism as a dependency in your package.json file.
+Install using npm
 
-```json
-{
-  "dependencies": {
-    "neumorphism": "file:../neumorph_navbar"
-  }
-}
-```
+```npm i hmos-neumorphism ```
 
 # Note :
 
@@ -32,7 +25,7 @@ button, input{
 
 Import:
 ```html
-<element name='neunavbar' src='../../../../../../node_modules/neumorphism/navbar/navbar.hml'></element>
+<element name='neunavbar' src='../../../../../../node_modules/hmos-neumorphism/navbar/navbar.hml'></element>
 ```
 
 Usage:
